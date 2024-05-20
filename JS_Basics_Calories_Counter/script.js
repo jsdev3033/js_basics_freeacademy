@@ -33,6 +33,7 @@ function addEntry() {
 }
 
 function calculateCalories(e) {
+  const breakfastNumberInputs = document.querySelectorAll(`#breakfast input[type=number]`);
   e.preventDefault();
   isError = false;
 
